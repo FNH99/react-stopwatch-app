@@ -31,9 +31,9 @@ function Stopwatch(){
 
     return(
         <div className='stopwatch'>
-            <div className="display">{formatTime}</div>
+            <div className="display">{formatTime()}</div>
         </div>
     );
 }
 
-export default Stopwatch;
+export default Stopwatch

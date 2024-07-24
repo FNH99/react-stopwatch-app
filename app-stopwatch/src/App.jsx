@@ -2,7 +2,7 @@ import Stopwatch from "./Stopwatch";
 
 function App(){
   
-  return(<></>);
+  return(<Stopwatch/>);
 }
 
 export default App;

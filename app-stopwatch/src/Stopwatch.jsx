@@ -25,10 +25,15 @@ function Stopwatch(){
 
     function formatTime(){
 
+        return '00:00:00';
     }
 
 
-    return(<></>);
+    return(
+        <div className='stopwatch'>
+            <div className="display">{formatTime}</div>
+        </div>
+    );
 }
 
 export default Stopwatch;
